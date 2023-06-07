@@ -1,0 +1,119 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Styles for header */
+  header {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  nav ul li a:hover {
+    color: #000;
+  }
+  
+  /* Styles for main content */
+  main {
+    padding: 20px;
+  }
+  
+  #lessons h2,
+  #practice h2 {
+    margin-top: 0;
+  }
+  
+  #lesson-list li {
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for practice quiz */
+  #quiz {
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  #quiz h3 {
+    margin-top: 0;
+  }
+  
+  #quiz-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  #quiz-form input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  #quiz-form input[type="submit"] {
+    margin-top: 10px;
+    padding: 8px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  #quiz-form input[type="submit"]:hover {
+    background-color: #000;
+  }
+  
+  /* Styles for footer */
+  footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p,
+  footer ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  footer ul {
+    list-style-type: none;
+    margin-top: 10px;
+  }
+  
+  footer ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  footer ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  footer ul li a:hover {
+    color: #000;
+  }
+  
